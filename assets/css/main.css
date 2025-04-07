@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('/assets/fonts/Poppins-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('/assets/fonts/Poppins-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@theme {
+    --font-poppins-mid: "Poppins-Medium", "sans-serif"; 
+    --font-poppins-light: "Poppins-Light", "sans-serif"; 
+}
