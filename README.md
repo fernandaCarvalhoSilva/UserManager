@@ -1,75 +1,45 @@
-# Nuxt Minimal Starter
+# UserManager
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Este é um projeto front-end desenvolvido com [Vue.js](https://vuejs.org/), [Nuxt.js](https://nuxt.com/), [Pinia](https://pinia.vuejs.org/) e [MirageJS](https://miragejs.com/) para simulação de uma API fake.
 
-## Setup
+## 🚀 Tecnologias Utilizadas
 
-Make sure to install dependencies:
+- Vue 3
+- Nuxt 3
+- Pinia
+- MirageJS
+- Tailwind CSS (v4)
+
+---
+
+## 🛠️ Como rodar o projeto localmente
+
+### 1. Clone do repositório
 
 ```bash
-# npm
+git clone https://github.com/fernandaCarvalhoSilva/UserManager.git
+cd UserManager
+```
+
+### 2. Instalação das dependências
+
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+### 3. Rode o projeto localmente
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
+---
 
-## Production
+## 🔧 Estrutura do Projeto
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+📁 components       → Componentes Vue reutilizáveis  
+📁 composables      → Lógicas reutilizáveis com `use*`  
+📁 pages            → Rotas da aplicação (gerenciadas pelo Nuxt)  
+📁 stores           → Gerenciamento de estado com Pinia  
+📁 assets           → Fontes e estilos  
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
